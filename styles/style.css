@@ -163,11 +163,14 @@
 .table {
   list-style-type: none;
   width: 1100px;
+  margin: 0;
+  padding: 0;
   position: relative;
   margin-left: auto;
   margin-right: auto;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   z-index: 2;
 }
 
@@ -175,7 +178,7 @@
   margin: 0;
   padding: 0;
   width: 250px;
-  margin-top: 60px;
+  padding-top: 60px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -282,8 +285,7 @@
 .table__cell_theme_dark {
   width: 200px;
   color: white;
-  margin-top: 80px;
-  margin-bottom: 90px;
+  padding-top: 80px;
 }
 
 .footer {
@@ -299,13 +301,14 @@
   display: flex;
   justify-content: space-between;
   padding-top: 60px;
-  padding-right: 40px;
+  padding-bottom: 40px;
 }
 
-.footer__columns_content_copyright {
-  min-width: 711px;
+.footer__column_content_copyright {
+  flex-basis: 711px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .logo_place_footer {
