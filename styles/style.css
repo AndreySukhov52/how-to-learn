@@ -296,7 +296,10 @@
 .footer {
   color: white;
   background-color: #1f1f1f;
+  box-sizing: border-box;
   min-height: 350px;
+  padding-top: 60px;
+  padding-bottom: 40px;
 }
 
 .footer__columns {
@@ -305,8 +308,7 @@
   margin-right: auto;
   display: flex;
   justify-content: space-between;
-  padding-top: 60px;
-  padding-bottom: 40px;
+  height: 250px;
 }
 
 .footer__column_content_copyright {
